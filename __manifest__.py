@@ -6,7 +6,7 @@
     'depends': ['website', 'website_crm', 'helpdesk'],
     'data': [
         'data/page.xml',
-        # 'views/pages.xml',
+        
         'views/snippets/s_desenvolvimento_agil.xml',
         'views/snippets/s_nossa_cultura.xml',
         'views/snippets/snippets.xml',
