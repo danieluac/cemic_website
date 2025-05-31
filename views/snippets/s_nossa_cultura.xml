@@ -1,0 +1,82 @@
+<odoo>
+
+  <!-- TEMPLETE NOSSA CULTURA-->
+  <template id="s_nossa_cultura" name="Nossa cultura">
+    <section class="s_nossa_cultura" data-snippet="s_nossa_cultura" data-name="Nossa cultura">
+      <div class="container py-5">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 h-auto p-1">
+            <div class="row col-12 h-100 gap-1">
+              <strong class="fs-3" style="color: #384056;">Nossa cultura</strong>
+              <p class="fs-4" style="line-height: normal; color: #384056F5;">
+                Todos os serviços e estruturas necessárias para alavancar o seu negócio de sucesso.
+              </p>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 h-auto p-1">
+            <div class="nossa-cultura-card d-flex col-12 h-100 gap-3 justify-content-center align-items-center p-4">
+              <img src="/cemic_website_portal/static/src/img/nossa-cultura-1.svg" alt="INICIATIVA" srcset="" style="width: 6rem;" />
+
+              <div class="row gap-1">
+                <strong class="fs-4 text-break" style="color: #384056;">INICIATIVA</strong>
+                <p class="fs-6" style="line-height: normal; color: #384056F5;">
+                  Incentivamos nossos colaboradores a assumirem a liderança, a pensarem de forma criativa e agirem
+                  proativamente para buscar soluções inovadoras.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 h-auto p-1">
+            <div class="nossa-cultura-card d-flex col-12 h-100 gap-3 justify-content-center align-items-center p-4">
+              <img src="/cemic_website_portal/static/src/img/nossa-cultura-2.svg" alt="COLABORAÇÃO" srcset="" style="width: 6rem;" />
+
+              <div class="row gap-1">
+                <strong class="fs-4 text-break" style="color: #384056;">COLABORAÇÃO</strong>
+                <p class="fs-6" style="line-height: normal; color: #384056F5;">
+                  Acreditamos que grandes ideias surgem da colaboração entre pessoas diversas. Encorajamos o compartilhamento de conhecimento e contribuição em equipe..
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 h-auto p-1">
+            <div class="nossa-cultura-card d-flex col-12 h-100 gap-3 justify-content-center align-items-center p-4">
+              <img src="/cemic_website_portal/static/src/img/nossa-cultura-3.svg" alt="FLEXIBILIDADE" srcset="" style="width: 6rem;" />
+
+              <div class="row gap-1">
+                <strong class="fs-4 text-break" style="color: #384056;">FLEXIBILIDADE</strong>
+                <p class="fs-6" style="line-height: normal; color: #384056F5;">
+                  Reconhecemos a importância de nos adaptarmos às mudanças do mercado e respondermos de forma ágil às novas oportunidades e desafios.
+                </p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-12 col-md-6 col-lg-4 h-auto p-1">
+            <div class="nossa-cultura-card d-flex col-12 h-100 gap-3 justify-content-center align-items-center p-4">
+              <img src="/cemic_website_portal/static/src/img/nossa-cultura-4.svg" alt="RESPONSABILIDADE" srcset="" style="width: 6rem;" />
+
+              <div class="row gap-1">
+                <strong class="fs-4 text-break" style="color: #384056;">RESPONSABILIDADE</strong>
+                <p class="fs-6" style="line-height: normal; color: #384056F5;">
+                  Valorizamos a integridade, respeito e a confiança. Cada membro da Globalsys é responsável por suas ações e suas consequências.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 h-auto p-2">
+            <div class="row col-12 h-100 justify-content-center align-items-center">
+              <p class="fs-4 text-center p-4" style="line-height: normal; color: #805C47;">
+                Cada cliente é parte da nossa família, por isso trabalhamos todos os dias para fortalecer esta relação
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </template>
+</odoo>

@@ -1,0 +1,11 @@
+<odoo>
+  <template id="hello_template" name="Hello Page">
+    <!-- <t t-call="website.layout"> -->
+      <div id="hello_template" class="container mt-5">
+        <h1>👋 Olá, <t t-esc="visitor_name" />!</h1>
+        <p>Bem-vindo ao Workshop odoo para Desenvolvedores.</p>
+        <p> <i>Deixa de ser um dev comum e aprenda a personalizar o ERP que mais cresce no mundo.</i></p>
+      </div>
+    <!-- </t> -->
+  </template>
+</odoo>

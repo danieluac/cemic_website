@@ -1,0 +1,38 @@
+<odoo>
+   
+
+  <template id="snippets" inherit_id="website.snippets" name="Cemic - Snippets">
+   <xpath expr="//snippets[@id='snippet_content']/*[1]" position="before">
+       <t t-snippet="cemic_website_portal.s_nossa_cultura" 
+            string="Nossa cultura" 
+            t-thumbnail="/cemic_website_portal/static/src/img/snippets_thumbnail/s_nossa_cultura.svg" 
+        />
+
+        <t t-snippet="cemic_website_portal.s_desenvolvimento_agil" 
+            string="Desenvolvimento Agil" 
+            t-thumbnail="/cemic_website_portal/static/src/img/snippets_thumbnail/s_desenvolvimento_agil.svg" 
+        />
+    </xpath>
+</template>
+
+<template id="snippets_group" inherit_id="website.snippets" name="Airproof - Snippets">
+   <!-- Create the group -->
+   <xpath expr="//snippets[@id='snippet_groups']/*[1]" position="before">
+      <t snippet-group="cemic" t-snippet="website.s_snippet_group" string="Cemic" t-thumbnail="/website_airproof/static/src/img/wbuilder/s_airproof_group_thumbnail.svg"/>
+   </xpath>
+
+   <!-- Add the custom snippet to the group -->
+   <xpath expr="//snippets[@id='snippet_structure']/*[1]" position="before">
+      <t t-snippet="cemic_website_portal.s_nossa_cultura" string="Nossa cultura" group="cemic">
+         <keywords>Nossa cultura</keywords>
+      </t>
+   </xpath>
+
+   <xpath expr="//snippets[@id='snippet_structure']/*[1]" position="before">
+      <t t-snippet="cemic_website_portal.s_desenvolvimento_agil" string="Desenvolvimento Agil" group="cemic">
+         <keywords>Desenvolvimento Agil</keywords>
+      </t>
+   </xpath>
+</template>
+
+</odoo>

@@ -1,0 +1,53 @@
+<odoo>
+
+    <!-- DESENVOLVIMENTO-->
+    <template id="s_desenvolvimento_agil" name="Desenvolvimento agil">
+      <section class="desenvolvimento_agil" data-snippet="s_desenvolvimento_agil" data-name="Desenvolvimento agil">
+        <div class="container py-5">
+            <div class="row ">
+
+                <div class="col-md-8 offset-md-2">
+                    <div class="desenvolvimento_agil_caption">
+                        <h2>DESENVOLVIMENTO ÀGIL</h2>
+                        <p>Desenvolvemos aplicativos personalizados, oferecendo qualidade, experiência do cliente,
+                            garantia e suporte completo
+                            para transferências de seu sucesso</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-10 offset-md-1">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="desenvolvimento_agil_caption_item">
+                            <img src="/cemic_website_portal/static/src/img/icons/vector14.svg" />
+                            <p style="margin-bottom: 0px; margin-left: 10px;">Desenvolvimento ágil, flexível e eficiente</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="desenvolvimento_agil_caption_item">
+                            <img src="/cemic_website_portal/static/src/img/icons/vector05.svg" />
+                            <p style="margin-left: 6px;margin-bottom: 0px;">Acompanhamento contínuo e suporte
+                                pós-entrega</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="desenvolvimento_agil_caption_item">
+                            <img src="/cemic_website_portal/static/src/img/icons/vector06.svg" />
+                            <p>Testes rigorosos garantem segurança e qualidade</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="desenvolvimento_agil_caption_item">
+                            <img src="/cemic_website_portal/static/src/img/icons/vector07.svg"/>
+                            <p style="margin-left: 11px;">Design personalizado com foco na experiência do usuário</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+    </template>
+</odoo>
